@@ -68,12 +68,7 @@ namespace Teste
 
         private int CalcularH()
         {
-            int count = 0;
-
-            foreach (var q in quartos)
-                if (q == SUJO) count++;
-
-            return count;
+            return Array.FindAll(quartos, a => a == SUJO).Length;
         }
 
         private int CalcularHashCode()
@@ -117,16 +112,7 @@ namespace Teste
         {
             get
             {
-                foreach (var q in quartos)
-                    if (q == SUJO) return false;
-
-                Predicate<int> match;
-
-                match.Target(SUJO);
-
-                Array.Exists(quartos, 1);
-
-                return true;
+                return !Array.Exists(quartos, a => a == SUJO);
             }
         }
 

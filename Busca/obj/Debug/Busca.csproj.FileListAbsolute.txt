@@ -3,3 +3,8 @@ C:\Users\thiag\OneDrive\BandTec - Desenvolvimento de Sistemas\5º Semestre\Siste
 C:\Users\thiag\OneDrive\BandTec - Desenvolvimento de Sistemas\5º Semestre\Sistemas Inteligentes\02 - Busca-20170829\Aula 02 - Busca sem HLAC e AspiradorDePoGrande\Busca\Busca\obj\Debug\Busca.csproj.CoreCompileInputs.cache
 C:\Users\thiag\OneDrive\BandTec - Desenvolvimento de Sistemas\5º Semestre\Sistemas Inteligentes\02 - Busca-20170829\Aula 02 - Busca sem HLAC e AspiradorDePoGrande\Busca\Busca\obj\Debug\Busca.dll
 C:\Users\thiag\OneDrive\BandTec - Desenvolvimento de Sistemas\5º Semestre\Sistemas Inteligentes\02 - Busca-20170829\Aula 02 - Busca sem HLAC e AspiradorDePoGrande\Busca\Busca\obj\Debug\Busca.pdb
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Busca\bin\Debug\Busca.dll
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Busca\bin\Debug\Busca.pdb
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Busca\obj\Debug\Busca.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Busca\obj\Debug\Busca.dll
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Busca\obj\Debug\Busca.pdb

@@ -7,3 +7,12 @@ C:\Users\thiag\OneDrive\BandTec - Desenvolvimento de Sistemas\5º Semestre\Siste
 C:\Users\thiag\OneDrive\BandTec - Desenvolvimento de Sistemas\5º Semestre\Sistemas Inteligentes\02 - Busca-20170829\Aula 02 - Busca sem HLAC e AspiradorDePoGrande\Busca\Teste\obj\Debug\Teste.csproj.CoreCompileInputs.cache
 C:\Users\thiag\OneDrive\BandTec - Desenvolvimento de Sistemas\5º Semestre\Sistemas Inteligentes\02 - Busca-20170829\Aula 02 - Busca sem HLAC e AspiradorDePoGrande\Busca\Teste\obj\Debug\Teste.exe
 C:\Users\thiag\OneDrive\BandTec - Desenvolvimento de Sistemas\5º Semestre\Sistemas Inteligentes\02 - Busca-20170829\Aula 02 - Busca sem HLAC e AspiradorDePoGrande\Busca\Teste\obj\Debug\Teste.pdb
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\bin\Debug\Teste.exe.config
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\bin\Debug\Teste.exe
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\bin\Debug\Teste.pdb
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\bin\Debug\Busca.dll
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\bin\Debug\Busca.pdb
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\obj\Debug\Teste.csprojResolveAssemblyReference.cache
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\obj\Debug\Teste.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\obj\Debug\Teste.exe
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\obj\Debug\Teste.pdb
