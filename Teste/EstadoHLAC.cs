@@ -69,9 +69,8 @@ namespace Teste {
 		}
 
 		private int CalcularH() {
-			// @@@
 
-			return 0;
+            return 4 - (homem + lobo + carneiro + alface);
 		}
 
 		public int Custo {
@@ -103,13 +102,37 @@ namespace Teste {
 
 		public bool IsMeta {
 			get {
-				// @@@
-
-				return true;
+				return (h == 0);
 			}
 		}
 
-		public IEnumerable<Estado> Sucessores {
+        private bool IsEstadoValido
+        {
+            get
+            {
+                if (missionariosMargemInicial != 0 &&
+                    missionariosMargemInicial < canibaisMargemInicial)
+                {
+                    // há missionários na margem inicial, e eles estão em menor número
+                    // do que os canibais
+                    return false;
+                }
+
+                int missionariosMargemFinal = 3 - missionariosMargemInicial;
+                int canibaisMargemFinal = 3 - canibaisMargemInicial;
+                if (missionariosMargemFinal != 0 &&
+                    missionariosMargemFinal < canibaisMargemFinal)
+                {
+                    // há missionários na margem final, e eles estão em menor número
+                    // do que os canibais
+                    return false;
+                }
+
+                return true;
+            }
+        }
+
+        public IEnumerable<Estado> Sucessores {
 			get {
 				List<Estado> sucessores = new List<Estado>();
 
