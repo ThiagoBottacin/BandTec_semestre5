@@ -8,3 +8,9 @@ C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Busca\bin\Debug\Busca.pdb
 C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Busca\obj\Debug\Busca.csproj.CoreCompileInputs.cache
 C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Busca\obj\Debug\Busca.dll
 C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Busca\obj\Debug\Busca.pdb
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Busca\bin\Debug\Busca.dll
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Busca\bin\Debug\Busca.pdb
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Busca\obj\Debug\Busca.csprojResolveAssemblyReference.cache
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Busca\obj\Debug\Busca.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Busca\obj\Debug\Busca.dll
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Busca\obj\Debug\Busca.pdb

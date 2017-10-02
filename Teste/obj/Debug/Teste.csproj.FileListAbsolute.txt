@@ -16,3 +16,12 @@ C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\obj\Debug\Teste.csp
 C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\obj\Debug\Teste.csproj.CoreCompileInputs.cache
 C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\obj\Debug\Teste.exe
 C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC\Teste\obj\Debug\Teste.pdb
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\bin\Debug\Teste.exe.config
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\bin\Debug\Teste.exe
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\bin\Debug\Teste.pdb
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\bin\Debug\Busca.dll
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\bin\Debug\Busca.pdb
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\obj\Debug\Teste.csprojResolveAssemblyReference.cache
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\obj\Debug\Teste.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\obj\Debug\Teste.exe
+C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\obj\Debug\Teste.pdb

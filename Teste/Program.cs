@@ -57,12 +57,93 @@ namespace Teste {
             // EstadoAspiradorDePoGrande
             //-----------------------------------------------------------------
 
-            int[] quartosIniciais = new int[EstadoAspiradorDePoGrande.TAMANHO];
-            for (int i = 0; i < EstadoAspiradorDePoGrande.TAMANHO; i++)
-            {
-                quartosIniciais[i] = EstadoAspiradorDePoGrande.SUJO;
-            }
-            EstadoAspiradorDePoGrande inicial = new EstadoAspiradorDePoGrande(quartosIniciais, EstadoAspiradorDePoGrande.TAMANHO / 2, "Inicial");
+            //int[] quartosIniciais = new int[EstadoAspiradorDePoGrande.TAMANHO];
+            //for (int i = 0; i < EstadoAspiradorDePoGrande.TAMANHO; i++)
+            //{
+            //    quartosIniciais[i] = EstadoAspiradorDePoGrande.SUJO;
+            //}
+            //EstadoAspiradorDePoGrande inicial = new EstadoAspiradorDePoGrande(quartosIniciais, EstadoAspiradorDePoGrande.TAMANHO / 2, "Inicial");
+            //No resultado;
+
+            //Console.WriteLine(inicial.Descricao);
+
+            //Console.WriteLine();
+            //BuscaHeuristicaAEstrela buscaHeuristicaAEstrela = new BuscaHeuristicaAEstrela();
+            //resultado = buscaHeuristicaAEstrela.Buscar(inicial);
+            //if (resultado == null)
+            //{
+            //    Console.WriteLine("Sem solucao para busca heuristica A*");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Busca heuristica A* (" + buscaHeuristicaAEstrela.Status.NosVisitados + "): " + resultado.MontarCaminho());
+            //}
+
+            //Console.WriteLine();
+            //BuscaHeuristicaSubidaDaMontanha buscaHeuristicaSubidaDaMontanha = new BuscaHeuristicaSubidaDaMontanha();
+            //resultado = buscaHeuristicaSubidaDaMontanha.Buscar(inicial);
+            //if (resultado == null)
+            //{
+            //    Console.WriteLine("Sem solucao para busca heuristica subida da montanha");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Busca heuristica subida da montanha (" + buscaHeuristicaSubidaDaMontanha.Status.NosVisitados + "): " + resultado.MontarCaminho());
+            //}
+
+            //Console.WriteLine();
+            //BuscaLargura buscaLargura = new BuscaLargura();
+            //resultado = buscaLargura.Buscar(inicial);
+            //if (resultado == null)
+            //{
+            //    Console.WriteLine("Sem solucao para busca em largura");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Busca em largura (" + buscaLargura.Status.NosVisitados + "): " + resultado.MontarCaminho());
+            //}
+
+            //Console.WriteLine();
+            //BuscaProfundidade buscaProfundidade = new BuscaProfundidade();
+            //resultado = buscaProfundidade.Buscar(inicial);
+            //if (resultado == null)
+            //{
+            //    Console.WriteLine("Sem solucao para busca em profundidade");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Busca em profundidade (" + buscaProfundidade.Status.NosVisitados + "): " + resultado.MontarCaminho());
+            //}
+
+            //Console.WriteLine();
+            //BuscaProfundidadeRecursiva buscaProfundidadeRecursiva = new BuscaProfundidadeRecursiva();
+            //resultado = buscaProfundidadeRecursiva.Buscar(inicial);
+            //if (resultado == null)
+            //{
+            //    Console.WriteLine("Sem solucao para busca em profundidade recursiva");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Busca em profundidade recursiva (" + buscaProfundidadeRecursiva.Status.NosVisitados + "): " + resultado.MontarCaminho());
+            //}
+
+            //Console.WriteLine();
+            //BuscaProfundidadeIterativa buscaProfundidadeIterativa = new BuscaProfundidadeIterativa();
+            //resultado = buscaProfundidadeIterativa.Buscar(inicial);
+            //if (resultado == null)
+            //{
+            //    Console.WriteLine("Sem solucao para busca em profundidade iterativa");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Busca em profundidade iterativa (" + buscaProfundidadeIterativa.Status.NosVisitados + "): " + resultado.MontarCaminho());
+            //}
+
+            //-----------------------------------------------------------------
+            // EstadoHLAC
+            //-----------------------------------------------------------------
+
+            EstadoHLAC inicial = new EstadoHLAC(EstadoHLAC.MARGEM_INICIAL, EstadoHLAC.MARGEM_INICIAL, EstadoHLAC.MARGEM_INICIAL, EstadoHLAC.MARGEM_INICIAL, "Inicial");
             No resultado;
 
             Console.WriteLine(inicial.Descricao);
@@ -138,69 +219,6 @@ namespace Teste {
             {
                 Console.WriteLine("Busca em profundidade iterativa (" + buscaProfundidadeIterativa.Status.NosVisitados + "): " + resultado.MontarCaminho());
             }
-
-            //-----------------------------------------------------------------
-            // EstadoHLAC
-            //-----------------------------------------------------------------
-
-            /*EstadoHLAC inicial = new EstadoHLAC(EstadoHLAC.MARGEM_INICIAL, EstadoHLAC.MARGEM_INICIAL, EstadoHLAC.MARGEM_INICIAL, EstadoHLAC.MARGEM_INICIAL, "Inicial");
-			No resultado;
-
-			Console.WriteLine(inicial.Descricao);
-
-			Console.WriteLine();
-			BuscaHeuristicaAEstrela buscaHeuristicaAEstrela = new BuscaHeuristicaAEstrela();
-			resultado = buscaHeuristicaAEstrela.Buscar(inicial);
-			if (resultado == null) {
-				Console.WriteLine("Sem solucao para busca heuristica A*");
-			} else {
-				Console.WriteLine("Busca heuristica A* (" + buscaHeuristicaAEstrela.Status.NosVisitados + "): " + resultado.MontarCaminho());
-			}
-
-			Console.WriteLine();
-			BuscaHeuristicaSubidaDaMontanha buscaHeuristicaSubidaDaMontanha = new BuscaHeuristicaSubidaDaMontanha();
-			resultado = buscaHeuristicaSubidaDaMontanha.Buscar(inicial);
-			if (resultado == null) {
-				Console.WriteLine("Sem solucao para busca heuristica subida da montanha");
-			} else {
-				Console.WriteLine("Busca heuristica subida da montanha (" + buscaHeuristicaSubidaDaMontanha.Status.NosVisitados + "): " + resultado.MontarCaminho());
-			}
-
-			Console.WriteLine();
-			BuscaLargura buscaLargura = new BuscaLargura();
-			resultado = buscaLargura.Buscar(inicial);
-			if (resultado == null) {
-				Console.WriteLine("Sem solucao para busca em largura");
-			} else {
-				Console.WriteLine("Busca em largura (" + buscaLargura.Status.NosVisitados + "): " + resultado.MontarCaminho());
-			}
-
-			Console.WriteLine();
-			BuscaProfundidade buscaProfundidade = new BuscaProfundidade();
-			resultado = buscaProfundidade.Buscar(inicial);
-			if (resultado == null) {
-				Console.WriteLine("Sem solucao para busca em profundidade");
-			} else {
-				Console.WriteLine("Busca em profundidade (" + buscaProfundidade.Status.NosVisitados + "): " + resultado.MontarCaminho());
-			}
-
-			Console.WriteLine();
-			BuscaProfundidadeRecursiva buscaProfundidadeRecursiva = new BuscaProfundidadeRecursiva();
-			resultado = buscaProfundidadeRecursiva.Buscar(inicial);
-			if (resultado == null) {
-				Console.WriteLine("Sem solucao para busca em profundidade recursiva");
-			} else {
-				Console.WriteLine("Busca em profundidade recursiva (" + buscaProfundidadeRecursiva.Status.NosVisitados + "): " + resultado.MontarCaminho());
-			}
-
-			Console.WriteLine();
-			BuscaProfundidadeIterativa buscaProfundidadeIterativa = new BuscaProfundidadeIterativa();
-			resultado = buscaProfundidadeIterativa.Buscar(inicial);
-			if (resultado == null) {
-				Console.WriteLine("Sem solucao para busca em profundidade iterativa");
-			} else {
-				Console.WriteLine("Busca em profundidade iterativa (" + buscaProfundidadeIterativa.Status.NosVisitados + "): " + resultado.MontarCaminho());
-			}*/
 
             //-----------------------------------------------------------------
             // EstadoMissionarioCanibal
