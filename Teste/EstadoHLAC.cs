@@ -171,7 +171,7 @@ namespace Teste
         }
        
 
-        #region Tentativas de Estados
+        #region Tentativas
         private EstadoHLAC TentarLevarLobo()
         {
             EstadoHLAC novoEstado = null;

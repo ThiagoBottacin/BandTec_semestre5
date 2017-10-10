@@ -25,3 +25,6 @@ C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\obj\Debug\Teste.cs
 C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\obj\Debug\Teste.csproj.CoreCompileInputs.cache
 C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\obj\Debug\Teste.exe
 C:\Users\thiag\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\obj\Debug\Teste.pdb
+C:\Users\thiago.bottacin.MILANELI\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\bin\Debug\Teste.exe.config
+C:\Users\thiago.bottacin.MILANELI\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\obj\Debug\Teste.exe
+C:\Users\thiago.bottacin.MILANELI\Source\Repos\Sistemas_Inteligentes_HLAC2\Teste\obj\Debug\Teste.pdb
